@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import plotly.express as px
 
-path = r"HP"
+path = r"\HP"
 BOOKS = os.listdir(path)
 for i,b in enumerate(BOOKS):
     BOOKS[i] = path + r'\\' + BOOKS[i]
